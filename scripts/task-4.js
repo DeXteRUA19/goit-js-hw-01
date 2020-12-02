@@ -2,7 +2,7 @@
 let credits = 23580;
 let pricePerDroid = 3000;
 let totalPrice;
-let input = prompt("Input the number of droids that you want to buy");
+const input = prompt("Input the number of droids that you want to buy");
 
 if (input === null) {
     alert("Cancelled by user");
