@@ -2,7 +2,7 @@
 const ADMIN_PASSWORD = "jqueryismyjam";
 let message;
 
-const input = prompt("Enter password");
+let input = prompt("Enter password");
 
 if (input === null) {
     message = "Cancelled by user";
